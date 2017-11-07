@@ -1,0 +1,11 @@
+struct Item
+{
+	string	name;
+	int 	id;
+};
+
+Item thing;
+vector<Item> stuffs;
+string s;
+int n;
+char c;

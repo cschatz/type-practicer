@@ -1,0 +1,33 @@
+body
+{
+    background: #333;
+}
+
+h1
+{
+        font-size: 1.3em;
+	font-weight: bold;
+        text-align: center;
+        margin: 10px;
+}
+
+p
+{
+    margin: 5px 3px 10px 3px;
+}
+
+.container
+{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background: #ddf;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+#reply
+{
+    background: #eef; border: 2px solid #aaf;
+}
