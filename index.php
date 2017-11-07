@@ -13,7 +13,7 @@
 
 <form id="typeform" action="check.php" method="post">
 <p>Declare structs and variables here:</p>
-<textarea cols="20" rows="10" name="decls">
+<textarea cols="40" rows="10" name="decls">
 </textarea>
 <p>Put a single expression and its type here:<br />
 <input name="expr" type="text"> <b>is a</b>
