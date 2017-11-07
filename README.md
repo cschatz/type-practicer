@@ -9,7 +9,7 @@ represented by the code they are looking at. (Quite often, the code they are loo
 at is code they wrote themselves, and they don't have a correct or consistent mental
 model of what it expresses or represents.)
 
-In a strongly-typed language like C++, one
+In a typed language like C++, one
 aspect of this is being able to look at any expression, typically within an overall
 'command' (i.e. statement), and answer the question "**what** is that thing?"
 Is it...
