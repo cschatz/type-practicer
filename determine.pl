@@ -25,7 +25,7 @@ $errfile = ".files/err_$timestamp";
 system ("cat TEMPLATE > $source");
 open (OUT, ">> $source");
 print OUT $declarations;
-print OUT "\nint main() { } \n";
+print OUT "\nint main()\n\{\nEMIT($expr)\n}\n";
 close (OUT);
 
 system ("g++ -o $executable $source 2> $errfile");
@@ -43,7 +43,7 @@ if (@errors > 0)
     $err =~ s/.+error: //;
     $err =~ s/in this scope//;
     $err =~ s/(was not declared)|(does not name a type)/doesn't match anything the compiler knows about already. Maybe it's a typo?/;
-    print "Your expression is NOT LEGAL.\n$err\n";
+    print "Your expression is NOT LEGAL.<br />$err";
     exit;
 }
 

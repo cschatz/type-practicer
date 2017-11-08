@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <typeinfo>
 using namespace std;
 
 #define EMIT(expr) { cout << typeid(expr).name(); }
