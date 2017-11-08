@@ -22,31 +22,6 @@
 <input name="type" type="text">
 
 <button type='button' id='check'>Check Answer</button>
-<!--
-
-TO DO:
-Dump this, left over from when this wasn implemented
-using ProtoypeJS [why? how did I not know about jQuery then?].
-replace it with a separate script.js file using jQuery to trigger
-an AJAX call to check.php
-
-ALSO:
-The current CSS yields somewhat ugly results. Need to fix it!
-
-<button onclick="
-$('reply').innerHTML = '[Checking...]';
-$('typeform').request({
-onComplete: function(transport){ $('reply').innerHTML = transport.responseText; }
-});
-return false;
-">
-Check Answer
-</button>
-
--->
-
-
-
 </form>
 
 <div id="reply">
