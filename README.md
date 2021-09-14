@@ -24,7 +24,3 @@ I started noticing, when helping students one-on-one with their code, that when 
 got lost in working with their own code, often they were stumbling at this basic level
 of "parsing" what they themselves had written. This tool is something I built to
 help them drill themselves on the specific task of type determination.
-
-**This is currently broken!!** The front end pieces and the backend script are not communicating
-with each other. It needs to be updated to use jQuery and an AJAX request in a sensible
-standard way.
