@@ -1,13 +1,13 @@
-# type-practicer
+# C++ Type Practicer
 
 A tool for students to practice "parsing" C++ expressions and determining
 their types.
 
 The motivation for this comes from my philosophy that a key driver of novices'
 development of programming skills is their **mental models** of the abstractions 
-represented by the code they are looking at. (Quite often, the code they are looking
+represented by the code they are looking at. Quite often, the code they are looking
 at is code they wrote themselves, and they don't have a correct or consistent mental
-model of what it expresses or represents.)
+model of what it expresses or represents.
 
 In a typed language like C++, one
 aspect of this is being able to look at any expression, typically within an overall
